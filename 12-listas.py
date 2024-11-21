@@ -1,3 +1,4 @@
+#%%
 gameFifa = ["Fifa 23", 2022, 90.50, True]
 print(gameFifa)
 
@@ -16,3 +17,16 @@ print(gamesList[:3])
 
 #4 - Buscar jogos de posicao em diante
 print(gamesList[1:4])
+
+# %%
+for element in [1, 2, 3]:
+    print(element)
+for element in (1, 2, 3):
+    print(element)
+for key in {'one':2, 'two':1}:
+    print(key)
+for char in "123":
+    print(char)
+# for line in open("myfile.txt"):
+    # print(line, end='')
+# %%

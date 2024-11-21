@@ -1,3 +1,4 @@
+#%%
 gamesList = ['Resident Evil 4','Star Wars Jedi Survivor',
              'The Legend of Zelda', 'Red Dead 2', 'Mario Odyssey',
              'LuigisMension 3']
