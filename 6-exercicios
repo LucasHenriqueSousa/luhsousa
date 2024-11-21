@@ -1,6 +1,0 @@
-num = int(input("Digite um número\n "))
-
-sucessor = num + 1
-antecessor = num - 1
-
-print(f"O sucessor de {num} é {sucessor} e o antecessor de {num} é o {antecessor}.")
