@@ -1,6 +1,7 @@
 fun main() {
-    print("Lucas")
-    println("\nHenrique")
+    print("Lucas\n")
+    println("Henrique")
     println("Sousa")
     println("Chapter")
 }
+
