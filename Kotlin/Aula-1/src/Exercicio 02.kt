@@ -10,8 +10,9 @@ fun main(){
     //Olá João da Silva, é um prazer te conhecer!
 
 //Resposta:
-    var name = "Charles"
+
     println("Qual é o seu nome?")
+    val name:String = readln()
     print("-------------------------------------\n")
 
     println("Olá $name, é um prazer te conhecer!")
