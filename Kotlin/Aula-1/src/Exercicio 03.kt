@@ -14,10 +14,9 @@ fun main(){
     println("Digite seu nome")
     val name:String = readln()
     println("Digite seu Salário")
-    var money = readln().toDouble()
-    var SalFormat = String.format("%.2f", money).toString()
+    val money = readln().toDouble()
+    val salFormat = String.format("%.2f", money)
 
-    println("Nome do Funcionário: $name Salário: $SalFormat\n" +
-            "O funcionário $name tem um salário de $SalFormat, em junho.")
+    println("Nome do Funcionário: $name Salário: $salFormat\nO funcionário $name tem um salário de $salFormat, em junho.")
 
 }
